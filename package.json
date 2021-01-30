@@ -14,8 +14,8 @@
     "lint": "eslint . || true",
     "jsdoc": "jsdoc -c .jsdoc.json"
   },
-  "dependencies": {
-    "puppeteer": "^3.3.0"
+  "peerDependencies": {
+    "puppeteer": "5.x"
   },
   "devDependencies": {
     "chai": "^4.2.0",
